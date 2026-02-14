@@ -4,6 +4,9 @@
     --font-logo: "Bitcount Grid Double", system-ui; 
     --font-hero: "Bebas Neue", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 section {
   scroll-margin-top: 75px;
 }
