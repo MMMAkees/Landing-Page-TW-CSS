@@ -6,82 +6,106 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="/src/output.css">
     <title>Landing Page</title>
 </head>
 
 <body>
     <!-- Navbar -->
-    <header class="bg-white/30 shadow-sm sticky top-0">
-        <div class="container mx-auto flex justify-between items-center">
-            <!-- logo -->
-            <div class="flex items-center space-x-2 py-1 h-15">
-                <a href="#">
-                    <img src="/src/assets/logo.png" alt="Logo" class="h-15 w-15 rounded-full">
-                </a>
-                <h1 class="font-logo text-1xl">AI Agents Hub</h1>
+    <header
+        class="sticky top-0 z-50 backdrop-blur-xl bg-gradient-to-br from-[#0b0b2b] via-[#14143c] to-[#1a1446] border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-16">
+
+                <!-- Logo -->
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 flex items-center justify-center rounded-xl backdrop-blur-md bg-white/10 border border-white/20 text-white text-lg shadow-md">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h1 class="font-semibold text-lg text-white">
+                        AI Agents
+                    </h1>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="hidden md:block">
+                    <ul class="flex items-center gap-8 font-medium text-sm">
+                        <li><a href="#" class="text-white/70 hover:text-white transition">Agents</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition">Frameworks</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition">Use Cases</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition">Tutorials</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition">Tools</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition">Research</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition">Blog</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Right Side -->
+                <!-- Subscribe Button -->
+                <button
+                    class="bg-indigo-500 text-white text-sm font-semibold px-5 py-2 rounded-full hover:scale-105 transition shadow-lg">
+                    Subscribe
+                </button>
             </div>
-            <!-- Navigation -->
-            <nav>
-                <ul class="flex space-x-6 font-medium">
-                    <li>
-                        <a href="#" class=" text-blue-400 hover:text-blue-800">
-                            Agents
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class=" text-blue-400 hover:text-blue-800">
-                            Frameworks
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class=" text-blue-400 hover:text-blue-800">
-                            Use Cases
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class=" text-blue-400 hover:text-blue-800">
-                            Tutorials
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class=" text-blue-400 hover:text-blue-800">
-                            Tools
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class=" text-blue-400 hover:text-blue-800">
-                            Research
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class=" text-blue-400 hover:text-blue-800">
-                            Blog
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- Subscribe Button -->
-            <button
-                class="bg-blue-600 text-white font-semibold px-6 py-1 rounded-full border-2 border-blue-600 cursor-pointer hover:bg-blue-400 hover:text-black">Subscribe</button>
         </div>
     </header>
+
     <main>
         <!-- Hero Section -->
-        <section>
-            <div>
-                <!-- Hero Left -->
-                <div>
+        <section class="bg-gradient-to-br from-[#0b0b2b] via-[#14143c] to-[#1a1446] text-white">
+            <div class="max-w-7xl mx-auto px-5 py-10">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <!-- Hero Left -->
+                    <div>
+                        <span
+                            class="inline-flex items-center text-xs mb-5 rounded-full border border-sky-200/30 bg-sky-500/10 px-3 py-1 text-sky-200">
+                            The Future of Work is AI Agents
+                        </span>
 
-                </div>
-                <!-- Hero Right -->
-                <div>
-                    <img src="/src/assets/hero-img.png" alt="hero-img">
+                        <h1 class="font-hero text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-6">
+                            Explore the World of Autonomous AI
+                        </h1>
+
+                        <p class="text-white/80 font-light leading-relaxed mb-10 max-w-xl">
+                            Discover tutorials, tools, real-world use cases and latest research about AI Agents.
+                            Start learning how autonomous AI is transforming business, coding, research and everyday
+                            productivity.
+                        </p>
+
+                        <!-- Buttons -->
+                        <div class="flex flex-wrap gap-4 mb-10">
+                            <button
+                                class="px-6 py-3 rounded-xl bg-sky-500 text-white font-semibold hover:bg-sky-400 transition cursor-pointer">
+                                Start Learning
+                            </button>
+
+                            <button
+                                class="px-6 py-3 rounded-xl border border-white/20 text-white font-semibold hover:bg-white/10 transition cursor-pointer">
+                                Browse Articles
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Hero Right -->
+                    <div class="flex justify-center lg:justify-end">
+                        <div class="relative w-full max-w-lg">
+                            <!-- Optional Glow -->
+                            <div class="absolute -inset-6 bg-sky-500/20 blur-3xl rounded-full"></div>
+
+                            <img src="/src/assets/hero-img.png" alt="hero-img"
+                                class="relative w-full h-auto rounded-2xl border border-white/10 shadow-2xl">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
     </main>
     <footer>
 
