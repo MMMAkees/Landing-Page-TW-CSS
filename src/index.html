@@ -3,24 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="/src/output.css">
 </head>
 <body>
-    <header>
-        <div>
+    <header class="bg-white/90 shadow-sm sticky top-0">
+        <div class="container mx-auto flex justify-between items-center">
             <!-- logo -->
-            <a href="">
-                <img src="" alt="Logo">
-            </a>
+             <div class="py-1">
+                 <a href="#">
+                     <img src="https://placehold.co/200" alt="Logo" class="h-14 w-14 rounded-full">
+                 </a>
+             </div>
             <!-- Navigation -->
             <nav>
-                <ul>
+                <ul class="flex space-x-6 font-medium">
                     <li>
-                        <a href=""></a>
+                        <a href="#" class=" text-blue-400 hover:text-blue-800">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" text-blue-400 hover:text-blue-800">
+                            Pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" text-blue-400 hover:text-blue-800">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" text-blue-400 hover:text-blue-800">
+                            Contact
+                        </a>
                     </li>
                 </ul>
             </nav>
+            <!-- Signup Button -->
+            <button class="bg-blue-600 text-white font-semibold px-6 py-1 rounded-full border-2 border-blue-600 cursor-pointer hover:bg-blue-400 hover:text-black">Signup</button>
         </div>
     </header>
     <main>
