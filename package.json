@@ -1,4 +1,11 @@
 {
+  "name": "learn-ai-agents",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "tailwindcss": "^4.1.18"
