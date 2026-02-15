@@ -4,7 +4,7 @@
 
 A modern, responsive landing & blog website focused on AI agents, frameworks, tools, tutorials and research.
 
-🌐 **Live Site:** https://learnaiagents.live
+🌐 **Live Site:** https://learnaiagents.live/
 
 ---
 
